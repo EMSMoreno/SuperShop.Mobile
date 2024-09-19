@@ -7,5 +7,11 @@
 
     <!-- Application resource dictionary -->
 
-  </Application.Resources>
+        <ResourceDictionary>
+            <!-- Parameters -->
+            <x:String x:Key="UrlAPI">https://supershoptpsieduardom.azurewebsites.net</x:String>
+            
+        </ResourceDictionary>
+
+    </Application.Resources>
 </prism:PrismApplication>
