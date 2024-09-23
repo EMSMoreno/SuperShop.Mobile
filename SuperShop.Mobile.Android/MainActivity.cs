@@ -3,6 +3,8 @@ using Android.Content.PM;
 using Android.OS;
 using Prism;
 using Prism.Ioc;
+using Syncfusion.SfBusyIndicator.XForms.Droid;
+using Xamarin.Essentials;
 
 namespace SuperShop.Mobile.Droid
 {
@@ -12,10 +14,11 @@ namespace SuperShop.Mobile.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            base.OnCreate(savedInstanceState);
 
+            base.OnCreate(savedInstanceState);
+              
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            //new SfBusyIndicatorRenderer();
+            new SfBusyIndicatorRenderer();
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(true);
             LoadApplication(new App(new AndroidInitializer()));
         }
@@ -36,4 +39,3 @@ namespace SuperShop.Mobile.Droid
         }
     }
 }
-

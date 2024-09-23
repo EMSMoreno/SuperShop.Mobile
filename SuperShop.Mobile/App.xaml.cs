@@ -6,6 +6,7 @@ using SuperShop.Mobile.Views;
 using Xamarin.Essentials.Implementation;
 using Xamarin.Essentials.Interfaces;
 using Xamarin.Forms;
+using Syncfusion.Licensing;
 
 namespace SuperShop.Mobile
 {
@@ -18,6 +19,8 @@ namespace SuperShop.Mobile
 
         protected override async void OnInitialized()
         {
+            SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1NDaF5cWWtCf1NpR2BGfV5ycEVCal1UTnRWUiweQnxTdEFjUH1dcHBUQ2NcUkd0XA==");
+            
             InitializeComponent();
 
             await NavigationService.NavigateAsync("NavigationPage/ProductsPage");
@@ -30,6 +33,7 @@ namespace SuperShop.Mobile
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<LoginPage, LoginPageViewModel>();
             containerRegistry.RegisterForNavigation<ProductsPage, ProductsPageViewModel>();
+            containerRegistry.RegisterForNavigation<ProductDetailPage, ProductDetailPageViewModel>();
         }
     }
 }
