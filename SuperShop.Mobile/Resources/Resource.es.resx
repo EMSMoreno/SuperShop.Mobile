@@ -127,4 +127,10 @@
   <data name="Name" xml:space="preserve">
     <value>Nombre</value>
   </data>
+  <data name="IsAvailable" xml:space="preserve">
+    <value>Está disponible</value>
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>Existencias</value>
+  </data>
 </root>

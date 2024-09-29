@@ -35,7 +35,11 @@ namespace SuperShop.Mobile.Helpers
 
         public static string Loading => Resource.Loading;
 
+        public static string Stock => Resource.Stock;
+
         public static string SearchProduct => Resource.SearchProduct;
+
+        public static string IsAvailable => Resource.IsAvailable;
 
 
     }
