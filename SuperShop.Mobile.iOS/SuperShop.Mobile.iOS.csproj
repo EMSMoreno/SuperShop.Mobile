@@ -218,6 +218,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\DefaultIcon.png" />
+    <Content Include="Resources\ic_card_giftcard.png" />
+    <Content Include="Resources\ic_exit_to_app.png" />
+    <Content Include="Resources\ic_history.png" />
+    <Content Include="Resources\ic_menu.png" />
+    <Content Include="Resources\ic_person.png" />
+    <Content Include="Resources\ic_shopping_cart.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

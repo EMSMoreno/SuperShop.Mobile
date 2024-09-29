@@ -106,11 +106,47 @@ namespace SuperShop.Mobile.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Last Purchase.
+        /// </summary>
+        internal static string LastPurchase {
+            get {
+                return ResourceManager.GetString("LastPurchase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last Sale.
+        /// </summary>
+        internal static string LastSale {
+            get {
+                return ResourceManager.GetString("LastSale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Loading....
         /// </summary>
         internal static string Loading {
             get {
                 return ResourceManager.GetString("Loading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Login.
+        /// </summary>
+        internal static string Login {
+            get {
+                return ResourceManager.GetString("Login", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Modify User.
+        /// </summary>
+        internal static string ModifyUser {
+            get {
+                return ResourceManager.GetString("ModifyUser", resourceCulture);
             }
         }
         
@@ -156,6 +192,24 @@ namespace SuperShop.Mobile.Resources {
         internal static string SearchProduct {
             get {
                 return ResourceManager.GetString("SearchProduct", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show Purchase History.
+        /// </summary>
+        internal static string ShowPurchaseHistory {
+            get {
+                return ResourceManager.GetString("ShowPurchaseHistory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show Shopping Cart.
+        /// </summary>
+        internal static string ShowShoppingCart {
+            get {
+                return ResourceManager.GetString("ShowShoppingCart", resourceCulture);
             }
         }
         

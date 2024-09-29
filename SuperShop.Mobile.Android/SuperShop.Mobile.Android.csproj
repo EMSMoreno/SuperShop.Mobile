@@ -141,6 +141,12 @@
     <Content Include="Resources\drawable-xhdpi\ic_more_vert.png" />
     <Content Include="Resources\drawable-xxhdpi\ic_more_vert.png" />
     <Content Include="Resources\drawable-xxxhdpi\ic_more_vert.png" />
+    <Content Include="Resources\drawable\ic_card_giftcard.png" />
+    <Content Include="Resources\drawable\ic_exit_to_app.png" />
+    <Content Include="Resources\drawable\ic_history.png" />
+    <Content Include="Resources\drawable\ic_menu.png" />
+    <Content Include="Resources\drawable\ic_person.png" />
+    <Content Include="Resources\drawable\ic_shopping_cart.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
