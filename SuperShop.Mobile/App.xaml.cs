@@ -1,5 +1,6 @@
 using Prism;
 using Prism.Ioc;
+using Prism.DryIoc;
 using SuperShop.Mobile.Services;
 using SuperShop.Mobile.ViewModels;
 using SuperShop.Mobile.Views;
@@ -10,7 +11,7 @@ using Syncfusion.Licensing;
 
 namespace SuperShop.Mobile
 {
-    public partial class App
+    public partial class App : PrismApplication
     {
         public App(IPlatformInitializer initializer)
             : base(initializer)
@@ -20,7 +21,7 @@ namespace SuperShop.Mobile
         protected override async void OnInitialized()
         {
             SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1NDaF5cWWtCf1NpR2BGfV5ycEVCal1UTnRWUiweQnxTdEFjUH1dcHBUQ2NcUkd0XA==");
-            
+
             InitializeComponent();
 
             await NavigationService.NavigateAsync("NavigationPage/ProductsPage");

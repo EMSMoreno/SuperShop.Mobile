@@ -1,5 +1,10 @@
-﻿using Prism.Navigation;
+﻿using Prism.Commands;
+using Prism.Mvvm;
+using Prism.Navigation;
 using SuperShop.Mobile.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace SuperShop.Mobile.ViewModels
 {
@@ -7,6 +12,7 @@ namespace SuperShop.Mobile.ViewModels
     {
         private readonly INavigationService _navigationService;
         private ProductResponse _product;
+
 
         public ProductDetailPageViewModel(INavigationService navigationService) : base(navigationService)
         {
