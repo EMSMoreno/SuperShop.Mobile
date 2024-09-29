@@ -1,5 +1,6 @@
 ﻿using Prism.Commands;
 using Prism.Navigation;
+using SuperShop.Mobile.Helpers;
 using SuperShop.Mobile.ItemViewModel;
 using SuperShop.Mobile.Models;
 using SuperShop.Mobile.Services;
@@ -27,7 +28,7 @@ namespace SuperShop.Mobile.ViewModels
         {
             _navigationService = navigationService;
             _apiService = apiService;
-            Title = "Products Page";
+            Title = Languages.Products;
             LoadProductsAsync();
         }
 
